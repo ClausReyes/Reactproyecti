@@ -34,21 +34,21 @@
 
 // map
 
-let productos=[
-    {nombre: "mouse", precio: 1000},
-    {nombre:"teclado", precio: 1000},
-    {nombre: "radio", precio: 1000},
+// let productos=[
+//     {nombre: "mouse", precio: 1000},
+//     {nombre:"teclado", precio: 1000},
+//     {nombre: "radio", precio: 1000},
     
-    {nombre: "lampara", precio: 1000},
-];
+//     {nombre: "lampara", precio: 1000},
+// ];
 
-function agregarIva(obj_producto){
-    let iva = obj_producto.precio *0.21;
-    return{
-        nombre: obj_producto.nombre,
-        precio: obj_producto.precio+iva
-    }
-}
+// function agregarIva(obj_producto){
+//     let iva = obj_producto.precio *0.21;
+//     return{
+//         nombre: obj_producto.nombre,
+//         precio: obj_producto.precio+iva
+//     }
+// }
 
-let resultado = productos.map(agregarIva);
-console.log(resultado)
+// let resultado = productos.map(agregarIva);
+// console.log(resultado)
